@@ -13,7 +13,7 @@ a:link {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0 100px 0;
+    padding: 0 100px 25px;
 }
 
 .headerlinks,
@@ -35,6 +35,7 @@ a:link {
 .herotitle {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: -20px;
 }
 
 .topbar {
@@ -51,7 +52,28 @@ a:link {
 
 .hero {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroleft {
+    display: flex;
     flex-direction: column;
+    max-width: 450px;
+    align-items: flex-start;
+}
+
+.heroright {
+    display: flex;
+}
+
+.herobutton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    font-weight: 700;
 }
 
 .mainbody {
@@ -112,7 +134,35 @@ a:link {
 
 .calltoaction {
     display: flex;
-    padding: 0 100px 0;
+    margin: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 0px 75px 0px;
+}
+
+.calltitle,
+.calltext {
+    color: #F9FAF8;
+}
+
+.calltitle {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.calltext {
+    margin-top: -20px;
+}
+
+.callbutton {
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
 }
 
 .footer {
