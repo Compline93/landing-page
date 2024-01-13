@@ -13,10 +13,12 @@ a:link {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 0 100px 0;
 }
 
 .headerlinks,
-.herosubtext {
+.herosubtext,
+.footertext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -37,6 +39,8 @@ a:link {
 
 .topbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .topbar ul {
@@ -52,4 +56,67 @@ a:link {
 
 .mainbody {
     display: flex;
+    padding: 0 100px 0;
+    flex-direction: column;
+}
+
+.mainbodytitle {
+    display: flex;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.imagecards {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.illustration {
+    max-width: 150px;
+}
+
+.illustration img {
+    border-radius: 25px;
+}
+
+.illustrationtext {
+    text-align: center;
+}
+
+.quotebox {
+    display: flex;
+    padding: 0 150px 0;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quotetext {
+    display: flex;
+    flex: auto;
+    max-width: 500px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteattribution {
+    margin-top: -20px;
+    margin-left: 300px;
+    font-weight: 700;
+}
+
+.calltoaction {
+    display: flex;
+    padding: 0 100px 0;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
 }
